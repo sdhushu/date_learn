@@ -10,15 +10,22 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sdhushu' }
     ],
-    sidebar: [
-      {
-        text: '跟着大佬学知识',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          { text: 'day01', link: '/guide/'}
-        ]
-      }
-    ]
+    sidebar:{
+      '/ding': [
+        {
+          text:'每日打卡',
+          collapsible: true,
+          collapsed: true,
+          items: [{ text: '2022打卡详情', link: '/ding/'}]
+        },
+        {
+          text: '跟着大佬学知识',
+          items: [
+            { text: 'day01', link: '/ding/guide'}
+          ]
+        }
+
+      ],
+    }
   }
 })
