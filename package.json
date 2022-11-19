@@ -1,0 +1,16 @@
+{
+  "name": "date_learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vike",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "dev": "../vite-plugin/date_learn/node_modules/.bin/vitepress dev docs",
+    "build": "../vite-plugin/date_learn/node_modules/.bin/vitepress build docs",
+    "serve": "../vite-plugin/date_learn/node_modules/.bin/vitepress serve docs"
+  }
+}
