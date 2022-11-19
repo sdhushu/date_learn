@@ -9,8 +9,8 @@
     "vue": "^3.2.45"
   },
   "scripts": {
-    "dev": "../vite-plugin/date_learn/node_modules/.bin/vitepress dev docs",
-    "build": "../vite-plugin/date_learn/node_modules/.bin/vitepress build docs",
-    "serve": "../vite-plugin/date_learn/node_modules/.bin/vitepress serve docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   }
 }
