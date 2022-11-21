@@ -21,7 +21,8 @@ export default defineConfig({
         {
           text: '跟着大佬学知识',
           items: [
-            { text: 'day01', link: '/ding/guide'}
+            { text: 'day01', link: '/ding/day/01' },
+            { text: 'day02', link: '/ding/day/02' }
           ]
         }
 
