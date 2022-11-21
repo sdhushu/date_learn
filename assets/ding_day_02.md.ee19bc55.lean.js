@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as i,a as t}from"./app.c82e6953.js";const p=JSON.parse('{"title":"\u5F15\u7528\u7C7B\u578B","description":"","frontmatter":{},"headers":[],"relativePath":"ding/day/02.md"}'),l={name:"ding/day/02.md"},r=t("",5),s=[r];function d(n,o,c,_,h,u){return i(),e("div",null,s)}const m=a(l,[["render",d]]);export{p as __pageData,m as default};
